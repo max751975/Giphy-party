@@ -1,0 +1,35 @@
+
+*{
+    background-color: rgb(44, 40, 40);
+}
+
+h1 {
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 0 0.5em 0;
+}
+
+form {
+    text-align: center;
+    background-color: rgb(31, 133, 133);
+}
+
+#remove {
+    background-color: red;
+}
+
+input {
+    background-color: whitesmoke;
+}
+
+/* #gif-container{
+    margin: 1em auto;
+   } */
+
+.gif {
+ display: inline-block;
+ margin: 1em;
+ 
+}
