@@ -13,7 +13,7 @@ form.addEventListener("submit" , async function(e){
     // console.log(input.value);
     // console.log("keyWord"+keyWord);
     input.value = '';
-    const res = await axios.get(`http://api.giphy.com/v1/gifs/search?q=${keyWord}&api_key=MhAodEJIJxQMxW9XqxKjyXfNYdLoOIym`);
+    const res = await axios.get(`https://api.giphy.com/v1/gifs/search?q=${keyWord}&api_key=MhAodEJIJxQMxW9XqxKjyXfNYdLoOIym`);
     const gifNumber = Math.floor(Math.random()*res.data.data.length);
     const gifUrl = res.data.data[gifNumber].images.original.url;
     // console.log("url from getGif func");
